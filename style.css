@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.custom-pack-container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.chocolates {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+
+.chocolate {
+    border: 1px solid #7e1111;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+.total-price {
+    font-weight: bold;
+}
+
+
+ .image1{
+    width: 300px;
+    height: 200px;
+}
+ .image2{
+    margin-top:40px ;
+    width: 200px;
+    height: 150px;
+}
+ .image3{
+    margin-top:40px ;
+    width: 200px;
+    height: 150px;
+}
+ .image4{
+    margin-top:40px ;
+    width: 200px;
+    height: 150px;
+}
+ .image5{
+    margin-top:30px ;
+    width: 200px;
+    height: 150px;
+}
+ .image6{
+    margin-top:40px ;
+    width: 200px;
+    height: 150px;
+}
+ .image7{
+    margin-top:40px ;
+    width: 200px;
+    height: 150px;
+}
+ .image8{
+    margin-top:40px ;
+    width: 200px;
+    height: 150px;
+}
+
+ .heading{
+    text-align: center;
+    color: var(--black);
+    font-size:1.7rem ;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+
+
+ span{
+    color: var(--green);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+
+section{
+    padding: 2rem 9%;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-chocolates {
+    width: 600px;
+    text-align: center;
+ border: 2px solid rgba(0,0,0,0.2);
+ margin-left: 900px;
+}
+
+
+    p{
+        color: var(--light-color);
+        font-size: 2.2rem;
+        line-height: 1.5;
+    }
+
+    ul{
+
+        color: var(--green);
+        font-size: 1.5rem;
+        line-height: 1.5;
+
+    }
+
+
+
+    @media(max-width:991px)
+{
+    html{
+        font-size: 55%;
+
+    }
+}
+
+@media(max-width:768px) {
+
+    h3{
+        color: var(--black);
+        font-size: 7rem;
+        
+    }
+}
+
+@media(max-width:991px)
+{
+    html{
+        font-size: 50%;
+
+    }
+
+    .dishes .custom-pack-container {
+       width: auto;
+        margin: 50px auto;
+        text-align: center;
+    } 
+     img{
+        height: auto;
+        width: 100%;
+       
+    }
+
+    .chocolates {
+        display: grid;
+        /* display: flex; */
+        justify-content: space-around;
+        margin-bottom: 20px;
+        position:absolute;
+    
+    }
+ 
+}
